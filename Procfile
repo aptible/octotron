@@ -1,1 +1,1 @@
-web: bin/hubot -a irc -n octotron
+hubot: bin/hubot -a irc -n octotron
