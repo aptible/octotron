@@ -8,15 +8,18 @@
 #   None
 #
 # Commands:
-#   doge me - Conjure doge
-#   hubot doge bomb N - coax N doges into a snafu
+#   hubot doge me - Conjure doge
+#
+# Todo:
+#   hubot doge dance - Summon doge to alive
+#   hubot doge bomb N - Coax N doges into a snafu
 
 module.exports = (robot) ->
   robot.respond /(doge)( me)? (.*)/i, (msg) ->
     dogeMe msg, msg.match[3], (url) ->
       msg.send url
 
-  # robot.respond /(gif)( me)? (.*)/i, (msg) ->
+  # robot.respond /(doge dance)( me)? (.*)/i, (msg) ->
   #   dogeMe msg, msg.match[3], true, (url) ->
   #     msg.send url
 
