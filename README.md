@@ -11,7 +11,7 @@ Make sure to configure:
     HUBOT_IRC_UNFLOOD="true"
 
 ## Updates
-Bump the version number in package.json and run `npm-install`.
+Bump the version number in package.json and run `npm install`.
 
 ## Copyright
 
