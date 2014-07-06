@@ -5,14 +5,12 @@ Our loyal IRC bot.
 ## Running
 Make sure to configure:
 
-    HUBOT_IRC_SERVER=irc.freenode.net 
-    HUBOT_IRC_ROOMS="#aptible" 
-    HUBOT_IRC_NICK="octotron" 
+    HUBOT_IRC_SERVER=irc.freenode.net
+    HUBOT_IRC_ROOMS="#aptible"
+    HUBOT_IRC_NICK="octotron"
     HUBOT_IRC_UNFLOOD="true"
 
 ## Updates
 Bump the version number in package.json and run `npm install`.
 
-## Copyright
-
-Copyright (c) 2014 [Aptible](https://www.aptible.com). All rights reserved.
+Copyright &copy; 2014 [Aptible](https://www.aptible.com)
