@@ -1,2 +1,2 @@
-hubot: bin/hubot -a irc -n octotron-backup
+hubot: bin/hubot --adapter irc
 web: bin/hubot --adapter slack

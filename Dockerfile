@@ -1,3 +1,4 @@
+FROMCACHE aptible-nodejs
 FROM quay.io/aptible/nodejs:v0.10.x
 
 ADD . /opt/nodejs
