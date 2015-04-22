@@ -3,14 +3,24 @@
 Our loyal IRC bot.
 
 ## Running
-Make sure to configure:
+
+For IRC integration, make sure to configure:
 
     HUBOT_IRC_SERVER=irc.freenode.net
-    HUBOT_IRC_ROOMS="#aptible"
-    HUBOT_IRC_NICK="octotron"
-    HUBOT_IRC_UNFLOOD="true"
+    HUBOT_IRC_ROOMS=#aptible
+    HUBOT_IRC_NICK=octotron
+    HUBOT_IRC_UNFLOOD=true
+
+For Slack integration, configure:
+
+    HUBOT_SLACK_BOTNAME=slackbot
+    HUBOT_SLACK_TOKEN=[redacted]
+    HUBOT_SLACK_TEAM=aptible
+
+Finally, for redis-brain functionality, you'll need to configure the `REDIS_URL` variable.
 
 ## Updates
+
 Bump the version number in package.json and run `npm install`.
 
 Copyright &copy; 2014 [Aptible](https://www.aptible.com)
