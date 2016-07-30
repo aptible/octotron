@@ -1,1 +1,7 @@
-[]
+[
+  "hubot-diagnostics",
+  "hubot-help",
+  "hubot-google-images",
+  "hubot-wolfram",
+  "hubot-youtube"
+]
