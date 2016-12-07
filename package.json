@@ -15,7 +15,7 @@
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.2.0",
     "hubot-google-images": "^0.2.6",
-    "hubot-wolfram": "^1.0.9",
+    "hubot-wolfram": "~1.0.9",
     "hubot-youtube": "^1.0.2"
   },
   "engines": {
